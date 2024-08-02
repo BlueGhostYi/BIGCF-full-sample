@@ -11,7 +11,7 @@ import utility.data_loader
 import utility.tools
 import os
 
-print('PyTorch Implementation for Embedding-less Graph Collaborative Filtering')
+print('PyTorch Implementation for Bilateral Intent-guided Graph Collaborative Filtering')
 print('-' * 80)
 
 print('\t Step 1: General parameter setting reading...')
