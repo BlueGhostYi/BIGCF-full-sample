@@ -1,5 +1,4 @@
-D:\anaconda3\envs\torch\python.exe "D:\代码\EGCF - 副本 (2)\main.py"
-PyTorch Implementation for Embedding-less Graph Collaborative Filtering
+PyTorch Implementation for Bilateral Intent-guided Graph Collaborative Filtering
 --------------------------------------------------------------------------------
 	 Step 1: General parameter setting reading...
 --------------------------------------------------------------------------------
@@ -35,97 +34,65 @@ PyTorch Implementation for Embedding-less Graph Collaborative Filtering
 --------------------------------------------------------------------------------
 	 Step 4: Model training and testing process:
 	 Epoch:    1| train time: 19.783 | train_loss: 16.546686 = 0.68311 + 0.000144 + 15.863431
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.03876616 0.06515814] NDCG: [0.04493847 0.05438075] Pre: [0.03475748 0.02954244]
 	 Epoch:    2| train time: 17.270 | train_loss: 14.784745 = 0.674426 + 0.000155 + 14.110164
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.03744207 0.06290319] NDCG: [0.04312627 0.05224203] Pre: [0.03348491 0.02834565]
 	 Epoch:    3| train time: 17.241 | train_loss: 14.703929 = 0.665819 + 0.000164 + 14.037946
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.03700255 0.06211802] NDCG: [0.04242125 0.0514154 ] Pre: [0.03312808 0.02801724]
 	 Epoch:    4| train time: 16.911 | train_loss: 14.655185 = 0.65583 + 0.000174 + 13.999181
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.0364142  0.06142662] NDCG: [0.04206096 0.0510121 ] Pre: [0.03269547 0.02774567]
 	 Epoch:    5| train time: 17.232 | train_loss: 14.613986 = 0.643866 + 0.000185 + 13.969934
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.03611647 0.06061215] NDCG: [0.04174803 0.05049168] Pre: [0.032506   0.02748832]
 	 Epoch:    6| train time: 18.175 | train_loss: 14.578987 = 0.629486 + 0.000199 + 13.949302
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.03590809 0.0606555 ] NDCG: [0.04161554 0.05045544] Pre: [0.03240179 0.02751989]
 	 Epoch:    7| train time: 16.952 | train_loss: 14.544318 = 0.6127 + 0.000217 + 13.931401
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.03599185 0.06069008] NDCG: [0.04167166 0.05050952] Pre: [0.03240811 0.02758936]
 	 Epoch:    8| train time: 16.992 | train_loss: 14.509456 = 0.593312 + 0.000238 + 13.915906
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.03634922 0.06111166] NDCG: [0.04208704 0.05089885] Pre: [0.03278704 0.02781041]
 	 Epoch:    9| train time: 16.710 | train_loss: 14.474718 = 0.571796 + 0.000264 + 13.902658
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.03708457 0.0620173 ] NDCG: [0.04294819 0.05174313] Pre: [0.03349438 0.02820671]
 	 Epoch:   10| train time: 17.813 | train_loss: 14.436568 = 0.548481 + 0.000296 + 13.887791
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.03741631 0.06285538] NDCG: [0.04344961 0.05247268] Pre: [0.03382594 0.02860301]
 	 Epoch:   11| train time: 17.244 | train_loss: 14.400014 = 0.524139 + 0.000334 + 13.875541
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.03831989 0.06458026] NDCG: [0.04452585 0.05384352] Pre: [0.0347038  0.02939087]
 	 Epoch:   12| train time: 16.527 | train_loss: 14.363094 = 0.498331 + 0.000378 + 13.864384
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.03924176 0.06627779] NDCG: [0.04549438 0.05513704] Pre: [0.03549956 0.03017873]
 	 Epoch:   13| train time: 16.690 | train_loss: 14.323105 = 0.470728 + 0.000431 + 13.851946
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04040236 0.0679715 ] NDCG: [0.04674593 0.0565196 ] Pre: [0.03652899 0.03093975]
 	 Epoch:   14| train time: 16.800 | train_loss: 14.28349 = 0.441146 + 0.000493 + 13.84185
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04112125 0.06936501] NDCG: [0.04765946 0.05772788] Pre: [0.03715107 0.03158551]
 	 Epoch:   15| train time: 16.697 | train_loss: 14.241934 = 0.40908 + 0.000565 + 13.832289
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04189792 0.07060278] NDCG: [0.04835556 0.0586352 ] Pre: [0.03772578 0.03214759]
 	 Epoch:   16| train time: 16.598 | train_loss: 14.199918 = 0.375536 + 0.000649 + 13.823732
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04257151 0.0713839 ] NDCG: [0.04904328 0.05933393] Pre: [0.03826576 0.03246495]
 	 Epoch:   17| train time: 16.687 | train_loss: 14.156496 = 0.340685 + 0.000746 + 13.815066
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04274252 0.07173293] NDCG: [0.04926442 0.05963001] Pre: [0.03842049 0.03260705]
 	 Epoch:   18| train time: 16.926 | train_loss: 14.114029 = 0.305793 + 0.000855 + 13.807382
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04297568 0.0720069 ] NDCG: [0.04955487 0.05987165] Pre: [0.03869206 0.03269231]
 	 Epoch:   19| train time: 17.034 | train_loss: 14.073111 = 0.272019 + 0.000976 + 13.800116
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04302155 0.0724741 ] NDCG: [0.04960985 0.06014173] Pre: [0.03874889 0.0329244 ]
 	 Epoch:   20| train time: 17.141 | train_loss: 14.034417 = 0.240341 + 0.001109 + 13.792967
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04312397 0.07260693] NDCG: [0.04966616 0.06022574] Pre: [0.03882784 0.03297809]
 	 Epoch:   21| train time: 17.105 | train_loss: 13.999619 = 0.211489 + 0.001251 + 13.786878
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04319813 0.07278718] NDCG: [0.04977024 0.06034865] Pre: [0.03892573 0.03304756]
 	 Epoch:   22| train time: 17.256 | train_loss: 13.968165 = 0.186169 + 0.001402 + 13.780595
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04320166 0.07292322] NDCG: [0.04977353 0.06041764] Pre: [0.03890363 0.03309808]
 	 Epoch:   23| train time: 16.373 | train_loss: 13.940976 = 0.164564 + 0.001558 + 13.774854
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04329226 0.07286483] NDCG: [0.0497692  0.06036938] Pre: [0.03888468 0.03304124]
 	 Epoch:   24| train time: 16.555 | train_loss: 13.917098 = 0.145939 + 0.001717 + 13.769442
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04316923 0.07279766] NDCG: [0.0497051  0.06030519] Pre: [0.03883415 0.03302387]
 	 Epoch:   25| train time: 16.486 | train_loss: 13.896909 = 0.130436 + 0.001879 + 13.764595
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04322618 0.07290492] NDCG: [0.04974527 0.06038763] Pre: [0.03883731 0.03306808]
 	 Epoch:   26| train time: 16.612 | train_loss: 13.880504 = 0.117349 + 0.00204 + 13.761115
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04325907 0.07267599] NDCG: [0.04970743 0.06023817] Pre: [0.038831   0.03297966]
 	 Epoch:   27| train time: 16.598 | train_loss: 13.865625 = 0.106155 + 0.0022 + 13.75727
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04311983 0.0726153 ] NDCG: [0.0495676  0.06013037] Pre: [0.03873942 0.03292914]
 	 Epoch:   28| train time: 16.472 | train_loss: 13.853263 = 0.096962 + 0.002359 + 13.753942
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04298258 0.07273551] NDCG: [0.04937916 0.06004876] Pre: [0.03866995 0.03293388]
 	 Epoch:   29| train time: 17.131 | train_loss: 13.8433 = 0.089236 + 0.002515 + 13.751549
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04280535 0.07245334] NDCG: [0.04921738 0.05989209] Pre: [0.03844575 0.03282809]
 	 Epoch:   30| train time: 16.536 | train_loss: 13.834787 = 0.082524 + 0.002668 + 13.749595
-	 alignment: 0.000 | uniformity: 0.000
 	 Recall: [0.04279672 0.07237983] NDCG: [0.04913359 0.05980883] Pre: [0.03841101 0.03281546]
 	 Model training process completed.
 	 best epoch: 23
 	 best recall: 0.043292262734645474
-
-Process finished with exit code 0
