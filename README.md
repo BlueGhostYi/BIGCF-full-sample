@@ -20,12 +20,12 @@ numpy == 1.24.3
 ## Examples to run the codes
 Steps to run the code:
 1. In the folder . /configure to configure the BIGCF.txt file
-2. Set the EGCF according to the optimal parameters. Using the classic Yelp 2018 dataset as an example, here are the corresponding hyperparameter settings (Other parameters can use the default settings):
+2. Set the BIGCF according to the optimal parameters. Using the classic Yelp2018 dataset as an example, here are the corresponding hyperparameter settings (Other parameters can use the default settings):
 ```
 dataset = yelp2018
 reg_lambda = 0.0001
 intent_size = 128
-ssl_lambda = 0.5
+ssl_lambda = 0.8
 ssl_temperature = 0.2
 int_temperature = 1.0
 ```
@@ -38,7 +38,7 @@ When running BIGCF on a new dataset, it can be referenced from the following sea
 * `reg_lambda`: [0.001, **0.0001**, 0.00001];
 * `GCN_layer`: [1, 2, **3**, 4];
 * `intent_size`: [32, 64, **128**, 256];
-* `ssl_lambda`: [0.1, 0.2, 0.3, **0.4**, 0.5];
+* `ssl_lambda`: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, **0.8**, 0.9, 1.0, 2.0, 3.0];
 * `ssl_temperature`: [0.05, 0.1, **0.2**, 0.3];
 
 
